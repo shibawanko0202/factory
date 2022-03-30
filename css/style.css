@@ -1,0 +1,74 @@
+/* common */
+
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+img{
+  height: 120px;
+  border-radius: 4px;
+}
+
+/* header */
+
+header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #999;
+}
+header h1{
+  font-size: 24px;
+  line-height: 40px;
+  color: #fff;
+}
+
+/* main */
+
+main{
+  height: 100%;
+  padding: 40px 30px 0;
+  /* background-color: rgb(91, 145, 91); */
+  font-family: 'Times New Roman', Times, serif;
+}
+main > h1{
+  margin: 16px;
+}
+.work_list{
+  display: flex;
+  margin: 24px 0;
+  text-align: left;
+}
+main ul li:nth-child(even){
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.explanation{
+  width: 400px;
+  margin: 8px;
+}
+.explanation h2{
+  margin: 4px 24px;
+  font-size: 20px;
+}
+.explanation p{
+  text-align: left;
+  font-size: 14px;
+}
+
+/* footer */
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #999;
+  color: #fff;
+}
